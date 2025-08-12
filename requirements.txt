@@ -1,0 +1,20 @@
+# 在线放映室 - Python依赖包
+# 安装命令: pip install -r requirements.txt
+
+# Qt GUI框架
+PySide6>=6.5.0
+
+# WebSocket支持
+websockets>=11.0,<13.0  # 支持新版本API
+
+# 异步编程
+asyncio-mqtt>=0.16.1
+
+# 网络接口工具
+netifaces>=0.11.0
+
+# 进程管理
+psutil>=5.9.5
+
+# 日志着色（可选，用于更好的控制台输出）
+colorlog>=6.7.0
