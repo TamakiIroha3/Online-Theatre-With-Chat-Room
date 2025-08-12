@@ -34,7 +34,7 @@
 
 ```bash
 git clone https://github.com/TamakiIroha3/Online-Theatre-With-Chat-Room.git
-cd online-theater
+cd Online-Theatre-With-Chat-Room
 ```
 
 ### 2. 安装Python依赖
