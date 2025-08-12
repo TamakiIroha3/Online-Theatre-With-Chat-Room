@@ -33,7 +33,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-repo/online-theater.git
+git clone https://github.com/TamakiIroha3/Online-Theatre-With-Chat-Room.git
 cd online-theater
 ```
 
@@ -227,8 +227,6 @@ MPV_PARAMS = {
    # Windows
    netstat -ano | findstr :9001
    
-   # Linux/macOS
-   lsof -i :9001
    ```
 
 ## 🛡️ 安全建议
