@@ -139,7 +139,7 @@ python3 main.py
 ### OBS推流设置建议
 
 #### 输出设置
-- **编码器**：x264 或 NVENC/AMF/QuickSync（硬件编码）
+- **编码器**：x264 或 NVENC/AMF/QuickSync H264（硬件编码） 如果你用的RTMP支持HEVC扩展也可以使用HEVC
 - **速率控制**：CBR（恒定比特率）
 - **比特率**：3000-8000 Kbps（根据网络调整）
 - **关键帧间隔**：1-2 秒
