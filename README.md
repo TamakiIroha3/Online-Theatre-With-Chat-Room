@@ -4,7 +4,7 @@
 
 ## ✨ 功能特性
 
--  **视频流分享**：支持通过SRT协议接收本地或远程OBS推流，并分发给多个观看者
+-  **视频流分享**：支持通过SRT协议接收本地或远程OBS推流到RTMP服务，并通过SRT协议分发给多个观看者
 -  **实时聊天室**：内置聊天室功能，支持emoji表情
 -  **IPv6支持**：优先支持IPv6网络，同时兼容IPv4
 -  **多用户支持**：支持多个接收端同时观看
@@ -19,7 +19,7 @@
 ### 运行环境
 - Python 3.8+ (开发与测试环境：3.13)
 - Windows 10/11 (主要支持)
-- 2GB+ RAM
+- 8GB+ RAM
 - 稳定的网络连接
 
 ### Python依赖
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 - 解压后将 `ffmpeg.exe` 复制到项目根目录
 
 #### MPV播放器 (必需)
-- 下载地址：https://mpv.io/installation/
+- 下载地址：https://sourceforge.net/projects/mpv-player-windows/
 - Windows: 下载 Windows builds
 - 将 `mpv.exe` 和 `mpv.com` 复制到项目根目录
 - 如有 `d3dcompiler_43.dll` 也一并复制
@@ -299,6 +299,7 @@ MIT License
 - MPV - 优秀的媒体播放器
 - Nginx-RTMP - 稳定的流媒体服务器
 - PySide6 - Qt for Python
+- Claude 最好的Vibe Coding模型
 
 ## 📞 联系方式
 
